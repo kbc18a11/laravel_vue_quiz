@@ -4,12 +4,15 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-//BootstrapVueを導入する場合
+//BootstrapVue
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue)
 
+//SocialSharing
+import SocialSharing from 'vue-social-sharing';
+Vue.use(SocialSharing);
 
 new Vue({
   router,

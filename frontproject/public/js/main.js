@@ -430,6 +430,35 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // .. is an alias to /src
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Home',
@@ -42416,638 +42445,576 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("main", [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("aside", { staticClass: "col-md-4 col-xs-12" }, [
+            _c("section", { staticClass: "sidebar-sns-section" }, [
+              _c("h3", { staticClass: "text-center sidebar-sns-h3" }, [
+                _vm._v("SNS共有")
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "sidebar-sns-links" },
+                [
+                  _c("social-sharing", {
+                    attrs: { url: "", title: "shareボタン" },
+                    inlineTemplate: {
+                      render: function() {
+                        var _vm = this
+                        var _h = _vm.$createElement
+                        var _c = _vm._self._c || _h
+                        return _c(
+                          "div",
+                          { staticClass: "twitter__share" },
+                          [
+                            _c("network", { attrs: { network: "twitter" } }, [
+                              _c("i", { staticClass: "fab fa-twitter" }),
+                              _vm._v(" Twitter\n                  ")
+                            ])
+                          ],
+                          1
+                        )
+                      },
+                      staticRenderFns: []
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("social-sharing", {
+                    attrs: { url: "", title: "shareボタン" },
+                    inlineTemplate: {
+                      render: function() {
+                        var _vm = this
+                        var _h = _vm.$createElement
+                        var _c = _vm._self._c || _h
+                        return _c(
+                          "div",
+                          { staticClass: "facebook__share" },
+                          [
+                            _c("network", { attrs: { network: "facebook" } }, [
+                              _c("i", { staticClass: "fab fa-facebook" }),
+                              _vm._v(" Facebook\n                  ")
+                            ])
+                          ],
+                          1
+                        )
+                      },
+                      staticRenderFns: []
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("social-sharing", {
+                    attrs: { url: "", title: "shareボタン" },
+                    inlineTemplate: {
+                      render: function() {
+                        var _vm = this
+                        var _h = _vm.$createElement
+                        var _c = _vm._self._c || _h
+                        return _c(
+                          "div",
+                          { staticClass: "line__share" },
+                          [
+                            _c("network", { attrs: { network: "line" } }, [
+                              _c("i", { staticClass: "fab fa-line" }),
+                              _vm._v(" Line\n                  ")
+                            ])
+                          ],
+                          1
+                        )
+                      },
+                      staticRenderFns: []
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("social-sharing", {
+                    attrs: { url: "", title: "shareボタン" },
+                    inlineTemplate: {
+                      render: function() {
+                        var _vm = this
+                        var _h = _vm.$createElement
+                        var _c = _vm._self._c || _h
+                        return _c(
+                          "div",
+                          { staticClass: "google__share" },
+                          [
+                            _c(
+                              "network",
+                              { attrs: { network: "googleplus" } },
+                              [
+                                _c("i", { staticClass: "fab fa-google" }),
+                                _vm._v(" google\n                  ")
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      },
+                      staticRenderFns: []
+                    }
+                  })
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(2)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(3)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("header", [
-        _c("div", { staticClass: "container text-center" }, [
-          _c("h1", [_vm._v("4 Answers Quiz 4択クイズ&クイズ徹底解説")]),
+    return _c("header", [
+      _c("div", { staticClass: "container text-center" }, [
+        _c("h1", [_vm._v("4 Answers Quiz 4択クイズ&クイズ徹底解説")]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "/" } }, [
+          _c("img", {
+            staticClass: "header-nav__logo",
+            attrs: { src: __webpack_require__(/*! ../assets/images/header-logo.png */ "./src/assets/images/header-logo.png") }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("nav", { staticClass: "navbar navbar-default navbar-static-top" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "navbar-header" }, [
+            _c(
+              "button",
+              {
+                staticClass: "navbar-toggle",
+                attrs: {
+                  type: "button",
+                  "data-toggle": "collapse",
+                  "data-target": "#navbar-ex-collapse"
+                }
+              },
+              [
+                _c("span", { staticClass: "sr-only" }, [
+                  _vm._v("Toggle navigation")
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "icon-bar" }),
+                _vm._v(" "),
+                _c("span", { staticClass: "icon-bar" }),
+                _vm._v(" "),
+                _c("span", { staticClass: "icon-bar" })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "navbar-brand",
+                attrs: { id: "header-nav__home", href: "/" }
+              },
+              [_vm._v("ホーム")]
+            )
+          ]),
           _vm._v(" "),
-          _c("a", { attrs: { href: "/" } }, [
-            _c("img", {
-              staticClass: "header-nav__logo",
-              attrs: { src: __webpack_require__(/*! ../assets/images/header-logo.png */ "./src/assets/images/header-logo.png") }
-            })
+          _c(
+            "div",
+            {
+              staticClass: "collapse navbar-collapse",
+              attrs: { id: "navbar-ex-collapse" }
+            },
+            [
+              _c("ul", { staticClass: "nav navbar-nav navbar-right" }, [
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { id: "header-nav__login", href: "/login" } },
+                    [_vm._v("ログイン")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: { id: "header-nav__register", href: "/register" }
+                    },
+                    [_vm._v("ユーザー登録")]
+                  )
+                ])
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("article", { staticClass: "col-md-8 col-xs-12 text-left" }, [
+      _c("section", { staticClass: "home-quiz__introduction" }, [
+        _c("h2", { staticClass: "home-quiz__introduction-h2" }, [
+          _c("img", {
+            staticClass: "home-quiz__introduction-h2-logo",
+            attrs: { src: __webpack_require__(/*! ../assets/images/what-is-mark.png */ "./src/assets/images/what-is-mark.png") }
+          }),
+          _vm._v("4 Answers Quizとは?\n            ")
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "4 Answers Quizとはビジネスマナーから一般常識に至るまで様々なクイズを4択で出題するWEBアプリです。"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v("何度もトライしてみて正解率100%を目指してみてください。")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "home-quiz__setting" }, [
+        _c("h2", { staticClass: "home-quiz__setting-h2" }, [
+          _c("img", {
+            staticClass: "home-quiz__setting-h2-logo",
+            attrs: { src: __webpack_require__(/*! ../assets/images/directory-icon.png */ "./src/assets/images/directory-icon.png") }
+          }),
+          _vm._v("出題設定\n            ")
+        ]),
+        _vm._v(" "),
+        _c("form", { attrs: { action: "/quiz", method: "post" } }, [
+          _c("label", [
+            _c("input", {
+              attrs: {
+                type: "checkbox",
+                name: "categories[]",
+                value: "1",
+                checked: ""
+              }
+            }),
+            _vm._v("ビジネスマナー\n              ")
+          ]),
+          _vm._v(" "),
+          _c("label", [
+            _c("input", {
+              attrs: { type: "checkbox", name: "categories[]", value: "2" }
+            }),
+            _vm._v("一般常識\n              ")
+          ]),
+          _vm._v(" "),
+          _c("label", [
+            _c("input", {
+              attrs: { type: "checkbox", name: "categories[]", value: "3" }
+            }),
+            _vm._v("就職・転職\n              ")
+          ]),
+          _vm._v(" "),
+          _c("label", [
+            _c("input", {
+              attrs: { type: "checkbox", name: "categories[]", value: "4" }
+            }),
+            _vm._v("法律\n              ")
+          ]),
+          _vm._v(" "),
+          _c("label", [
+            _c("input", {
+              attrs: { type: "checkbox", name: "categories[]", value: "5" }
+            }),
+            _vm._v("IT\n              ")
+          ]),
+          _vm._v(" "),
+          _c("label", [
+            _c("input", {
+              attrs: { type: "checkbox", name: "categories[]", value: "6" }
+            }),
+            _vm._v("雑学\n              ")
+          ]),
+          _vm._v(" "),
+          _c("div", {}, [
+            _vm._v("\n                全項目チェック\n                "),
+            _c(
+              "button",
+              {
+                attrs: {
+                  type: "button",
+                  name: "check_all",
+                  id: "check-all",
+                  value: "1"
+                }
+              },
+              [_vm._v("ON")]
+            ),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                attrs: {
+                  type: "button",
+                  name: "check_all_off",
+                  id: "check-all-off",
+                  value: "1"
+                }
+              },
+              [_vm._v("OFF")]
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+            [_vm._v("出題開始")]
+          ),
+          _vm._v(" "),
+          _c("input", { attrs: { type: "hidden", name: "_token", value: "" } })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "home-quiz__ranking" }, [
+        _c("h2", { staticClass: "home-quiz__ranking-h2" }, [
+          _c("img", {
+            staticClass: "home-quiz__ranking-h2-logo",
+            attrs: { src: __webpack_require__(/*! ../assets/images/graph-icon.png */ "./src/assets/images/graph-icon.png") }
+          }),
+          _vm._v("ランキング\n            ")
+        ]),
+        _vm._v(" "),
+        _c("div", [
+          _c("label", [
+            _c("input", {
+              staticClass: "ranking-radio",
+              attrs: {
+                type: "radio",
+                name: "ranking-radio",
+                value: "1",
+                checked: ""
+              }
+            }),
+            _vm._v("総合\n              ")
+          ]),
+          _vm._v(" "),
+          _c("label", [
+            _c("input", {
+              staticClass: "ranking-radio",
+              attrs: { type: "radio", name: "ranking-radio", value: "2" }
+            }),
+            _vm._v("今月\n              ")
+          ]),
+          _vm._v(" "),
+          _c("label", [
+            _c("input", {
+              staticClass: "ranking-radio",
+              attrs: { type: "radio", name: "ranking-radio", value: "3" }
+            }),
+            _vm._v("今週\n              ")
           ])
         ]),
         _vm._v(" "),
-        _c("nav", { staticClass: "navbar navbar-default navbar-static-top" }, [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "navbar-header" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "navbar-toggle",
-                  attrs: {
-                    type: "button",
-                    "data-toggle": "collapse",
-                    "data-target": "#navbar-ex-collapse"
-                  }
-                },
-                [
-                  _c("span", { staticClass: "sr-only" }, [
-                    _vm._v("Toggle navigation")
-                  ]),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "icon-bar" }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "icon-bar" }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "icon-bar" })
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "a",
-                {
-                  staticClass: "navbar-brand",
-                  attrs: { id: "header-nav__home", href: "/" }
-                },
-                [_vm._v("ホーム")]
-              )
-            ]),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "collapse navbar-collapse",
-                attrs: { id: "navbar-ex-collapse" }
-              },
-              [
-                _c("ul", { staticClass: "nav navbar-nav navbar-right" }, [
-                  _c("li", [
-                    _c(
-                      "a",
-                      { attrs: { id: "header-nav__login", href: "/login" } },
-                      [_vm._v("ログイン")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: { id: "header-nav__register", href: "/register" }
-                      },
-                      [_vm._v("ユーザー登録")]
-                    )
-                  ])
-                ])
-              ]
-            )
-          ])
-        ])
+        _c("div", { staticClass: "home_quiz__ranking-chart" })
       ]),
       _vm._v(" "),
-      _c("main", [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("article", { staticClass: "col-md-8 col-xs-12" }, [
-              _c("section", { staticClass: "home-quiz__introduction" }, [
-                _c("h2", { staticClass: "home-quiz__introduction-h2" }, [
-                  _c("img", {
-                    staticClass: "home-quiz__introduction-h2-logo",
-                    attrs: { src: __webpack_require__(/*! ../assets/images/what-is-mark.png */ "./src/assets/images/what-is-mark.png") }
-                  }),
-                  _vm._v("4 Answers Quizとは?\n            ")
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "4 Answers Quizとはビジネスマナーから一般常識に至るまで様々なクイズを4択で出題するWEBアプリです。"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "何度もトライしてみて正解率100%を目指してみてください。"
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("section", { staticClass: "home-quiz__setting" }, [
-                _c("h2", { staticClass: "home-quiz__setting-h2" }, [
-                  _c("img", {
-                    staticClass: "home-quiz__setting-h2-logo",
-                    attrs: {
-                      src: __webpack_require__(/*! ../assets/images/directory-icon.png */ "./src/assets/images/directory-icon.png")
-                    }
-                  }),
-                  _vm._v("出題設定\n            ")
-                ]),
-                _vm._v(" "),
-                _c("form", { attrs: { action: "/quiz", method: "post" } }, [
-                  _c("label", [
-                    _c("input", {
-                      attrs: {
-                        type: "checkbox",
-                        name: "categories[]",
-                        value: "1",
-                        checked: ""
-                      }
-                    }),
-                    _vm._v("ビジネスマナー\n              ")
-                  ]),
-                  _vm._v(" "),
-                  _c("label", [
-                    _c("input", {
-                      attrs: {
-                        type: "checkbox",
-                        name: "categories[]",
-                        value: "2"
-                      }
-                    }),
-                    _vm._v("一般常識\n              ")
-                  ]),
-                  _vm._v(" "),
-                  _c("label", [
-                    _c("input", {
-                      attrs: {
-                        type: "checkbox",
-                        name: "categories[]",
-                        value: "3"
-                      }
-                    }),
-                    _vm._v("就職・転職\n              ")
-                  ]),
-                  _vm._v(" "),
-                  _c("label", [
-                    _c("input", {
-                      attrs: {
-                        type: "checkbox",
-                        name: "categories[]",
-                        value: "4"
-                      }
-                    }),
-                    _vm._v("法律\n              ")
-                  ]),
-                  _vm._v(" "),
-                  _c("label", [
-                    _c("input", {
-                      attrs: {
-                        type: "checkbox",
-                        name: "categories[]",
-                        value: "5"
-                      }
-                    }),
-                    _vm._v("IT\n              ")
-                  ]),
-                  _vm._v(" "),
-                  _c("label", [
-                    _c("input", {
-                      attrs: {
-                        type: "checkbox",
-                        name: "categories[]",
-                        value: "6"
-                      }
-                    }),
-                    _vm._v("雑学\n              ")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", {}, [
-                    _vm._v(
-                      "\n                全項目チェック\n                "
-                    ),
-                    _c(
-                      "button",
-                      {
-                        attrs: {
-                          type: "button",
-                          name: "check_all",
-                          id: "check-all",
-                          value: "1"
-                        }
-                      },
-                      [_vm._v("ON")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "button",
-                      {
-                        attrs: {
-                          type: "button",
-                          name: "check_all_off",
-                          id: "check-all-off",
-                          value: "1"
-                        }
-                      },
-                      [_vm._v("OFF")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-primary",
-                      attrs: { type: "submit" }
-                    },
-                    [_vm._v("出題開始")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: { type: "hidden", name: "_token", value: "" }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("section", { staticClass: "home-quiz__ranking" }, [
-                _c("h2", { staticClass: "home-quiz__ranking-h2" }, [
-                  _c("img", {
-                    staticClass: "home-quiz__ranking-h2-logo",
-                    attrs: { src: __webpack_require__(/*! ../assets/images/graph-icon.png */ "./src/assets/images/graph-icon.png") }
-                  }),
-                  _vm._v("ランキング\n            ")
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "ranking-radio",
-                      attrs: {
-                        type: "radio",
-                        name: "ranking-radio",
-                        value: "1",
-                        checked: ""
-                      }
-                    }),
-                    _vm._v("総合\n              ")
-                  ]),
-                  _vm._v(" "),
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "ranking-radio",
-                      attrs: {
-                        type: "radio",
-                        name: "ranking-radio",
-                        value: "2"
-                      }
-                    }),
-                    _vm._v("今月\n              ")
-                  ]),
-                  _vm._v(" "),
-                  _c("label", [
-                    _c("input", {
-                      staticClass: "ranking-radio",
-                      attrs: {
-                        type: "radio",
-                        name: "ranking-radio",
-                        value: "3"
-                      }
-                    }),
-                    _vm._v("今週\n              ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "home_quiz__ranking-chart" })
-              ]),
-              _vm._v(" "),
-              _c("section", { staticClass: "home__notice" }, [
-                _c("h2", { staticClass: "home__notice-h2" }, [
-                  _c("img", {
-                    staticClass: "home__notice-h2-logo",
-                    attrs: { src: __webpack_require__(/*! ../assets/images/news-icon.png */ "./src/assets/images/news-icon.png") }
-                  }),
-                  _vm._v("お知らせ情報\n            ")
-                ]),
-                _vm._v(" "),
-                _c("dl", [
-                  _c("dt", [_vm._v("2019/08/23")]),
-                  _vm._v(" "),
-                  _c("dd", [_vm._v("サイトを開設しました。")])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("aside", { staticClass: "col-md-4 col-xs-12" }, [
-              _c("section", { staticClass: "sidebar-sns-section" }, [
-                _c("h3", { staticClass: "text-center sidebar-sns-h3" }, [
-                  _vm._v("SNS共有")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "sidebar-sns-links" })
-              ]),
-              _vm._v(" "),
-              _c("section", { staticClass: "sidebar-keywords" }, [
-                _c("h3", { staticClass: "text-center sidebar-keywords-h3" }, [
-                  _vm._v("キーワード集")
-                ]),
-                _vm._v(" "),
-                _c("ul", { staticClass: "sidebar-keywords__links" }, [
-                  _c("li", [
-                    _c("a", { attrs: { href: "/keyword?initial=A" } }, [
-                      _vm._v("Ａ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=B" } }, [
-                      _vm._v("Ｂ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=C" } }, [
-                      _vm._v("Ｃ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=D" } }, [
-                      _vm._v("Ｄ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=E" } }, [
-                      _vm._v("Ｅ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=F" } }, [
-                      _vm._v("Ｆ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=G" } }, [
-                      _vm._v("Ｇ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=H" } }, [
-                      _vm._v("Ｈ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=I" } }, [
-                      _vm._v("Ｉ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=J" } }, [
-                      _vm._v("Ｊ")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "/keyword?initial=K" } }, [
-                      _vm._v("Ｋ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=L" } }, [
-                      _vm._v("Ｌ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=M" } }, [
-                      _vm._v("Ｍ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=N" } }, [
-                      _vm._v("Ｎ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=O" } }, [
-                      _vm._v("Ｏ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=P" } }, [
-                      _vm._v("Ｐ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=Q" } }, [
-                      _vm._v("Ｑ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=R" } }, [
-                      _vm._v("Ｒ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=S" } }, [
-                      _vm._v("Ｓ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=T" } }, [
-                      _vm._v("Ｔ")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "/keyword?initial=U" } }, [
-                      _vm._v("Ｕ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=V" } }, [
-                      _vm._v("Ｖ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=W" } }, [
-                      _vm._v("Ｗ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=X" } }, [
-                      _vm._v("Ｘ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=Y" } }, [
-                      _vm._v("Ｙ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=Z" } }, [
-                      _vm._v("Ｚ")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "/keyword?initial=あ" } }, [
-                      _vm._v("あ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=い" } }, [
-                      _vm._v("い")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=う" } }, [
-                      _vm._v("う")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=え" } }, [
-                      _vm._v("え")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=お" } }, [
-                      _vm._v("お")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=か" } }, [
-                      _vm._v("か")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=き" } }, [
-                      _vm._v("き")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=く" } }, [
-                      _vm._v("く")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=け" } }, [
-                      _vm._v("け")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=こ" } }, [
-                      _vm._v("こ")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "/keyword?initial=さ" } }, [
-                      _vm._v("さ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=し" } }, [
-                      _vm._v("し")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=す" } }, [
-                      _vm._v("す")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=せ" } }, [
-                      _vm._v("せ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=そ" } }, [
-                      _vm._v("そ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=た" } }, [
-                      _vm._v("た")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ち" } }, [
-                      _vm._v("ち")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=つ" } }, [
-                      _vm._v("つ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=て" } }, [
-                      _vm._v("て")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=と" } }, [
-                      _vm._v("と")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "/keyword?initial=な" } }, [
-                      _vm._v("な")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=に" } }, [
-                      _vm._v("に")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ぬ" } }, [
-                      _vm._v("ぬ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ね" } }, [
-                      _vm._v("ね")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=の" } }, [
-                      _vm._v("の")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=は" } }, [
-                      _vm._v("は")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ひ" } }, [
-                      _vm._v("ひ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ふ" } }, [
-                      _vm._v("ふ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=へ" } }, [
-                      _vm._v("へ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ほ" } }, [
-                      _vm._v("ほ")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "/keyword?initial=ま" } }, [
-                      _vm._v("ま")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=み" } }, [
-                      _vm._v("み")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=む" } }, [
-                      _vm._v("む")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=め" } }, [
-                      _vm._v("め")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=も" } }, [
-                      _vm._v("も")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ら" } }, [
-                      _vm._v("ら")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=り" } }, [
-                      _vm._v("り")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=る" } }, [
-                      _vm._v("る")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=れ" } }, [
-                      _vm._v("れ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ろ" } }, [
-                      _vm._v("ろ")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "/keyword?initial=や" } }, [
-                      _vm._v("や")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=ゆ" } }, [
-                      _vm._v("ゆ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=よ" } }, [
-                      _vm._v("よ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=わ" } }, [
-                      _vm._v("わ")
-                    ]),
-                    _vm._v(" "),
-                    _c("a", { attrs: { href: "/keyword?initial=を" } }, [
-                      _vm._v("を")
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ])
+      _c("section", { staticClass: "home__notice" }, [
+        _c("h2", { staticClass: "home__notice-h2" }, [
+          _c("img", {
+            staticClass: "home__notice-h2-logo",
+            attrs: { src: __webpack_require__(/*! ../assets/images/news-icon.png */ "./src/assets/images/news-icon.png") }
+          }),
+          _vm._v("お知らせ情報\n            ")
+        ]),
+        _vm._v(" "),
+        _c("dl", [
+          _c("dt", [_vm._v("2019/08/23")]),
+          _vm._v(" "),
+          _c("dd", [_vm._v("サイトを開設しました。")])
         ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "sidebar-keywords" }, [
+      _c("h3", { staticClass: "text-center sidebar-keywords-h3" }, [
+        _vm._v("キーワード集")
       ]),
       _vm._v(" "),
-      _c("footer", [
-        _c("div", { staticClass: "container text-center" }, [
-          _c("small", [_vm._v("© 2019 4Answers-quiz. All rights reserved.")])
+      _c("ul", { staticClass: "sidebar-keywords__links" }, [
+        _c("li", [
+          _c("a", { attrs: { href: "/keyword?initial=A" } }, [_vm._v("Ａ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=B" } }, [_vm._v("Ｂ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=C" } }, [_vm._v("Ｃ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=D" } }, [_vm._v("Ｄ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=E" } }, [_vm._v("Ｅ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=F" } }, [_vm._v("Ｆ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=G" } }, [_vm._v("Ｇ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=H" } }, [_vm._v("Ｈ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=I" } }, [_vm._v("Ｉ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=J" } }, [_vm._v("Ｊ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "/keyword?initial=K" } }, [_vm._v("Ｋ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=L" } }, [_vm._v("Ｌ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=M" } }, [_vm._v("Ｍ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=N" } }, [_vm._v("Ｎ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=O" } }, [_vm._v("Ｏ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=P" } }, [_vm._v("Ｐ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=Q" } }, [_vm._v("Ｑ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=R" } }, [_vm._v("Ｒ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=S" } }, [_vm._v("Ｓ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=T" } }, [_vm._v("Ｔ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "/keyword?initial=U" } }, [_vm._v("Ｕ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=V" } }, [_vm._v("Ｖ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=W" } }, [_vm._v("Ｗ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=X" } }, [_vm._v("Ｘ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=Y" } }, [_vm._v("Ｙ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=Z" } }, [_vm._v("Ｚ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "/keyword?initial=あ" } }, [_vm._v("あ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=い" } }, [_vm._v("い")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=う" } }, [_vm._v("う")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=え" } }, [_vm._v("え")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=お" } }, [_vm._v("お")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=か" } }, [_vm._v("か")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=き" } }, [_vm._v("き")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=く" } }, [_vm._v("く")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=け" } }, [_vm._v("け")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=こ" } }, [_vm._v("こ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "/keyword?initial=さ" } }, [_vm._v("さ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=し" } }, [_vm._v("し")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=す" } }, [_vm._v("す")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=せ" } }, [_vm._v("せ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=そ" } }, [_vm._v("そ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=た" } }, [_vm._v("た")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ち" } }, [_vm._v("ち")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=つ" } }, [_vm._v("つ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=て" } }, [_vm._v("て")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=と" } }, [_vm._v("と")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "/keyword?initial=な" } }, [_vm._v("な")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=に" } }, [_vm._v("に")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ぬ" } }, [_vm._v("ぬ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ね" } }, [_vm._v("ね")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=の" } }, [_vm._v("の")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=は" } }, [_vm._v("は")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ひ" } }, [_vm._v("ひ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ふ" } }, [_vm._v("ふ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=へ" } }, [_vm._v("へ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ほ" } }, [_vm._v("ほ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "/keyword?initial=ま" } }, [_vm._v("ま")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=み" } }, [_vm._v("み")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=む" } }, [_vm._v("む")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=め" } }, [_vm._v("め")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=も" } }, [_vm._v("も")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ら" } }, [_vm._v("ら")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=り" } }, [_vm._v("り")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=る" } }, [_vm._v("る")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=れ" } }, [_vm._v("れ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ろ" } }, [_vm._v("ろ")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "/keyword?initial=や" } }, [_vm._v("や")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=ゆ" } }, [_vm._v("ゆ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=よ" } }, [_vm._v("よ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=わ" } }, [_vm._v("わ")]),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "/keyword?initial=を" } }, [_vm._v("を")])
         ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("footer", [
+      _c("div", { staticClass: "container text-center" }, [
+        _c("small", [_vm._v("© 2019 4Answers-quiz. All rights reserved.")])
       ])
     ])
   }
@@ -46093,6 +46060,419 @@ if (inBrowser && window.Vue) {
 
 /* harmony default export */ __webpack_exports__["default"] = (VueRouter);
 
+
+/***/ }),
+
+/***/ "./node_modules/vue-social-sharing/dist/vue-social-sharing.common.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/vue-social-sharing/dist/vue-social-sharing.common.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/*!
+ * vue-social-sharing v2.4.7 
+ * (c) 2019 nicolasbeauvais
+ * Released under the MIT License.
+ */
+
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var Vue = _interopDefault(__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js"));
+
+var SocialSharingNetwork = {
+  functional: true,
+
+  props: {
+    network: {
+      type: String,
+      default: ''
+    }
+  },
+
+  render: function (createElement, context) {
+    var network = context.parent._data.baseNetworks[context.props.network];
+
+    if (!network) {
+      return console.warn(("Network " + (context.props.network) + " does not exist"));
+    }
+
+    return createElement(context.parent.networkTag, {
+      staticClass: context.data.staticClass || null,
+      staticStyle: context.data.staticStyle || null,
+      class: context.data.class || null,
+      style: context.data.style || null,
+      attrs: {
+        id: context.data.attrs.id || null,
+        tabindex: context.data.attrs.tabindex || 0,
+        'data-link': network.type === 'popup'
+          ? '#share-' + context.props.network
+          : context.parent.createSharingUrl(context.props.network),
+        'data-action': network.type === 'popup' ? null : network.action
+      },
+      on: {
+        click: network.type === 'popup' ? function () {
+          context.parent.share(context.props.network);
+        } : function () {
+          context.parent.touch(context.props.network);
+        }
+      }
+    }, context.children);
+  }
+};
+
+var email = {"sharer":"mailto:?subject=@title&body=@url%0D%0A%0D%0A@description","type":"direct"};
+var facebook = {"sharer":"https://www.facebook.com/sharer/sharer.php?u=@url&title=@title&description=@description&quote=@quote&hashtag=@hashtags","type":"popup"};
+var googleplus = {"sharer":"https://plus.google.com/share?url=@url","type":"popup"};
+var line = {"sharer":"http://line.me/R/msg/text/?@description%0D%0A@url","type":"popup"};
+var linkedin = {"sharer":"https://www.linkedin.com/shareArticle?mini=true&url=@url&title=@title&summary=@description","type":"popup"};
+var odnoklassniki = {"sharer":"https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=@url&st.comments=@description","type":"popup"};
+var pinterest = {"sharer":"https://pinterest.com/pin/create/button/?url=@url&media=@media&description=@title","type":"popup"};
+var reddit = {"sharer":"https://www.reddit.com/submit?url=@url&title=@title","type":"popup"};
+var skype = {"sharer":"https://web.skype.com/share?url=@description%0D%0A@url","type":"popup"};
+var telegram = {"sharer":"https://t.me/share/url?url=@url&text=@description","type":"popup"};
+var twitter = {"sharer":"https://twitter.com/intent/tweet?text=@title&url=@url&hashtags=@hashtags@twitteruser","type":"popup"};
+var viber = {"sharer":"viber://forward?text=@url @description","type":"direct"};
+var vk = {"sharer":"https://vk.com/share.php?url=@url&title=@title&description=@description&image=@media&noparse=true","type":"popup"};
+var weibo = {"sharer":"http://service.weibo.com/share/share.php?url=@url&title=@title","type":"popup"};
+var whatsapp = {"sharer":"https://api.whatsapp.com/send?text=@description%0D%0A@url","type":"popup","action":"share/whatsapp/share"};
+var sms = {"sharer":"sms:?body=@url%20@description","type":"direct"};
+var sms_ios = {"sharer":"sms:;body=@url%20@description","type":"direct"};
+var BaseNetworks = {
+	email: email,
+	facebook: facebook,
+	googleplus: googleplus,
+	line: line,
+	linkedin: linkedin,
+	odnoklassniki: odnoklassniki,
+	pinterest: pinterest,
+	reddit: reddit,
+	skype: skype,
+	telegram: telegram,
+	twitter: twitter,
+	viber: viber,
+	vk: vk,
+	weibo: weibo,
+	whatsapp: whatsapp,
+	sms: sms,
+	sms_ios: sms_ios
+};
+
+var inBrowser = typeof window !== 'undefined';
+var $window = inBrowser ? window : null;
+
+var SocialSharing = {
+  props: {
+    /**
+     * URL to share.
+     * @var string
+     */
+    url: {
+      type: String,
+      default: inBrowser ? window.location.href : ''
+    },
+
+    /**
+     * Sharing title, if available by network.
+     * @var string
+     */
+    title: {
+      type: String,
+      default: ''
+    },
+
+    /**
+     * Sharing description, if available by network.
+     * @var string
+     */
+    description: {
+      type: String,
+      default: ''
+    },
+
+    /**
+     * Facebook quote
+     * @var string
+     */
+    quote: {
+      type: String,
+      default: ''
+    },
+
+    /**
+     * Twitter hashtags
+     * @var string
+     */
+    hashtags: {
+      type: String,
+      default: ''
+    },
+
+    /**
+     * Twitter user.
+     * @var string
+     */
+    twitterUser: {
+      type: String,
+      default: ''
+    },
+
+    /**
+     * Flag that indicates if counts should be retrieved.
+     * - NOT WORKING IN CURRENT VERSION
+     * @var mixed
+     */
+    withCounts: {
+      type: [String, Boolean],
+      default: false
+    },
+
+    /**
+     * Google plus key.
+     * @var string
+     */
+    googleKey: {
+      type: String,
+      default: undefined
+    },
+
+    /**
+     * Pinterest Media URL.
+     * Specifies the image/media to be used.
+     */
+    media: {
+      type: String,
+      default: ''
+    },
+
+    /**
+     * Network sub component tag.
+     * Default to span tag
+     */
+    networkTag: {
+      type: String,
+      default: 'span'
+    },
+
+    /**
+     * Additional or overridden networks.
+     * Default to BaseNetworks
+     */
+    networks: {
+      type: Object,
+      default: function () {
+        return {};
+      }
+    }
+  },
+
+  data: function data () {
+    return {
+      /**
+       * Available sharing networks.
+       * @param object
+       */
+      baseNetworks: BaseNetworks,
+
+      /**
+       * Popup settings.
+       * @param object
+       */
+      popup: {
+        status: false,
+        resizable: true,
+        toolbar: false,
+        menubar: false,
+        scrollbars: false,
+        location: false,
+        directories: false,
+        width: 626,
+        height: 436,
+        top: 0,
+        left: 0,
+        window: undefined,
+        interval: null
+      }
+    };
+  },
+
+  methods: {
+    /**
+     * Returns generated sharer url.
+     *
+     * @param network Social network key.
+     */
+    createSharingUrl: function createSharingUrl (network) {
+      var ua = navigator.userAgent.toLowerCase();
+
+      /**
+       * On IOS, SMS sharing link need a special formating
+       * Source: https://weblog.west-wind.com/posts/2013/Oct/09/Prefilling-an-SMS-on-Mobile-Devices-with-the-sms-Uri-Scheme#Body-only
+        */
+      if (network === 'sms' && (ua.indexOf('iphone') > -1 || ua.indexOf('ipad') > -1)) {
+        network += '_ios';
+      }
+
+      var url = this.baseNetworks[network].sharer;
+
+      /**
+       * On IOS, Twitter sharing shouldn't include a hashtag parameter if the hashtag value is empty
+       * Source: https://github.com/nicolasbeauvais/vue-social-sharing/issues/143
+        */
+      if (network === 'twitter' && this.hashtags.length === 0) {
+        url = url.replace('&hashtags=@hashtags', '');
+      }
+
+      return url
+        .replace(/@url/g, encodeURIComponent(this.url))
+        .replace(/@title/g, encodeURIComponent(this.title))
+        .replace(/@description/g, encodeURIComponent(this.description))
+        .replace(/@quote/g, encodeURIComponent(this.quote))
+        .replace(/@hashtags/g, this.generateHashtags(network, this.hashtags))
+        .replace(/@media/g, this.media)
+        .replace(/@twitteruser/g, this.twitterUser ? '&via=' + this.twitterUser : '');
+    },
+    /**
+     * Encode hashtags for the specified social network.
+     *
+     * @param  network Social network key
+     * @param  hashtags All hashtags specified
+     */
+    generateHashtags: function generateHashtags (network, hashtags) {
+      if (network === 'facebook' && hashtags.length > 0) {
+        return '%23' + hashtags.split(',')[0];
+      }
+
+      return hashtags;
+    },
+    /**
+     * Shares URL in specified network.
+     *
+     * @param network Social network key.
+     */
+    share: function share (network) {
+      this.openSharer(network, this.createSharingUrl(network));
+
+      this.$root.$emit('social_shares_open', network, this.url);
+      this.$emit('open', network, this.url);
+    },
+
+    /**
+     * Touches network and emits click event.
+     *
+     * @param network Social network key.
+     */
+    touch: function touch (network) {
+      window.open(this.createSharingUrl(network), '_self');
+
+      this.$root.$emit('social_shares_open', network, this.url);
+      this.$emit('open', network, this.url);
+    },
+
+    /**
+     * Opens sharer popup.
+     *
+     * @param network Social network key
+     * @param url Url to share.
+     */
+    openSharer: function openSharer (network, url) {
+      var this$1 = this;
+
+      // If a popup window already exist it will be replaced, trigger a close event.
+      var popupWindow = null;
+      if (popupWindow && this.popup.interval) {
+        clearInterval(this.popup.interval);
+
+        popupWindow.close();// Force close (for Facebook)
+
+        this.$root.$emit('social_shares_change', network, this.url);
+        this.$emit('change', network, this.url);
+      }
+
+      popupWindow = window.open(
+        url,
+        'sharer',
+        'status=' + (this.popup.status ? 'yes' : 'no') +
+        ',height=' + this.popup.height +
+        ',width=' + this.popup.width +
+        ',resizable=' + (this.popup.resizable ? 'yes' : 'no') +
+        ',left=' + this.popup.left +
+        ',top=' + this.popup.top +
+        ',screenX=' + this.popup.left +
+        ',screenY=' + this.popup.top +
+        ',toolbar=' + (this.popup.toolbar ? 'yes' : 'no') +
+        ',menubar=' + (this.popup.menubar ? 'yes' : 'no') +
+        ',scrollbars=' + (this.popup.scrollbars ? 'yes' : 'no') +
+        ',location=' + (this.popup.location ? 'yes' : 'no') +
+        ',directories=' + (this.popup.directories ? 'yes' : 'no')
+      );
+
+      popupWindow.focus();
+
+      // Create an interval to detect popup closing event
+      this.popup.interval = setInterval(function () {
+        if (!popupWindow || popupWindow.closed) {
+          clearInterval(this$1.popup.interval);
+
+          popupWindow = undefined;
+
+          this$1.$root.$emit('social_shares_close', network, this$1.url);
+          this$1.$emit('close', network, this$1.url);
+        }
+      }, 500);
+    }
+  },
+
+  /**
+   * Merge base networks list with user's list
+   */
+  beforeMount: function beforeMount () {
+    this.baseNetworks = Vue.util.extend(this.baseNetworks, this.networks);
+  },
+
+  /**
+   * Sets popup default dimensions.
+   */
+  mounted: function mounted () {
+    if (!inBrowser) {
+      return;
+    }
+
+    /**
+     * Center the popup on dual screens
+     * http://stackoverflow.com/questions/4068373/center-a-popup-window-on-screen/32261263
+     */
+    var dualScreenLeft = $window.screenLeft !== undefined ? $window.screenLeft : screen.left;
+    var dualScreenTop = $window.screenTop !== undefined ? $window.screenTop : screen.top;
+
+    var width = $window.innerWidth ? $window.innerWidth : (document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width);
+    var height = $window.innerHeight ? $window.innerHeight : (document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height);
+
+    this.popup.left = ((width / 2) - (this.popup.width / 2)) + dualScreenLeft;
+    this.popup.top = ((height / 2) - (this.popup.height / 2)) + dualScreenTop;
+  },
+
+  /**
+   * Set component aliases for buttons and links.
+   */
+  components: {
+    'network': SocialSharingNetwork
+  }
+};
+
+SocialSharing.version = '2.4.7';
+
+SocialSharing.install = function (Vue) {
+  Vue.component('social-sharing', SocialSharing);
+};
+
+if (typeof window !== 'undefined') {
+  window.SocialSharing = SocialSharing;
+}
+
+module.exports = SocialSharing;
 
 /***/ }),
 
@@ -58257,15 +58637,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var bootstrap_vue_dist_bootstrap_vue_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap-vue/dist/bootstrap-vue.css */ "./node_modules/bootstrap-vue/dist/bootstrap-vue.css");
 /* harmony import */ var bootstrap_vue_dist_bootstrap_vue_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(bootstrap_vue_dist_bootstrap_vue_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var vue_social_sharing__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-social-sharing */ "./node_modules/vue-social-sharing/dist/vue-social-sharing.common.js");
+/* harmony import */ var vue_social_sharing__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(vue_social_sharing__WEBPACK_IMPORTED_MODULE_6__);
 
 
 
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.productionTip = false; //BootstrapVueを導入する場合
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.productionTip = false; //BootstrapVue
 
 
 
 
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["default"]); //SocialSharing
+
+
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_social_sharing__WEBPACK_IMPORTED_MODULE_6___default.a);
 new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   router: _router__WEBPACK_IMPORTED_MODULE_2__["default"],
   render: function render(h) {
