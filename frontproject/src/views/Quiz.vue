@@ -1,105 +1,109 @@
 <template>
   <div>
-   <TheHeader></TheHeader>
-    <main>
+    <the-Header></the-Header>
+    <main class="">
       <div class="container">
         <div class="row">
           <article class="col-md-8 col-xs-12 text-left">
-            <section class="home-quiz__introduction">
-              <h2 class="home-quiz__introduction-h2">
-                <img
-                  class="home-quiz__introduction-h2-logo"
-                  src="../assets/images/what-is-mark.png"
-                />4 Answers Quizとは?
+            <section>
+              <h2 class="quiz-question-h2">
+                <img class="quiz-question__logo" src="../assets/images/what-is-mark.png" />
+                第1問
               </h2>
-              <p>4 Answers Quizとはビジネスマナーから一般常識に至るまで様々なクイズを4択で出題するWEBアプリです。</p>
-              <p>何度もトライしてみて正解率100%を目指してみてください。</p>
-            </section>
-            <section class="home-quiz__setting">
-              <h2 class="home-quiz__setting-h2">
-                <img class="home-quiz__setting-h2-logo" src="../assets/images/directory-icon.png" />出題設定
-              </h2>
-              <form action="/quiz" method="post">
-                <label>
-                  <input type="checkbox" name="categories[]" value="1" checked />ビジネスマナー
-                </label>
-                <label>
-                  <input type="checkbox" name="categories[]" value="2" />一般常識
-                </label>
-                <label>
-                  <input type="checkbox" name="categories[]" value="3" />就職・転職
-                </label>
-                <label>
-                  <input type="checkbox" name="categories[]" value="4" />法律
-                </label>
-                <label>
-                  <input type="checkbox" name="categories[]" value="5" />IT
-                </label>
-                <label>
-                  <input type="checkbox" name="categories[]" value="6" />雑学
-                </label>
-                <div class>
-                  全項目チェック
-                  <button type="button" name="check_all" id="check-all" value="1">ON</button>
-                  <button type="button" name="check_all_off" id="check-all-off" value="1">OFF</button>
-                </div>
-                <button type="submit" class="btn btn-primary">出題開始</button>
-                <input type="hidden" name="_token" value />
-              </form>
-            </section>
-            <section class="home-quiz__ranking">
-              <h2 class="home-quiz__ranking-h2">
-                <img class="home-quiz__ranking-h2-logo" src="../assets/images/graph-icon.png" />ランキング
-              </h2>
-              <div>
-                <label>
-                  <input class="ranking-radio" type="radio" name="ranking-radio" value="1" checked />総合
-                </label>
-                <label>
-                  <input class="ranking-radio" type="radio" name="ranking-radio" value="2" />今月
-                </label>
-                <label>
-                  <input class="ranking-radio" type="radio" name="ranking-radio" value="3" />今週
-                </label>
+              <p>正しい敬語を使った表現を１つ選んでください。</p>
+              <div class="quiz-answer__list">
+                <ul>
+                  <li>
+                    <a>
+                      <button>1</button>
+                    </a>
+                    受付でうかがってください。
+                  </li>
+                  <li>
+                    <a>
+                      <button>2</button>
+                    </a>
+                    課長がおっしゃったように、ファイルをご覧ください。
+                  </li>
+                  <li>
+                    <a>
+                      <button>3</button>
+                    </a>
+                    部長が申されたように進めていきます。
+                  </li>
+                  <li>
+                    <a>
+                      <button>4</button>
+                    </a>
+                    ○△商事の□□様がお越しになられました。
+                  </li>
+                </ul>
               </div>
-              <div class="home_quiz__ranking-chart"></div>
             </section>
-            <section class="home__notice">
-              <h2 class="home__notice-h2">
-                <img class="home__notice-h2-logo" src="../assets/images/news-icon.png" />お知らせ情報
+            <section>
+              <h2 class="quiz-correct-h2">
+                <img class="quiz-correct__logo" src="../assets/images/correct-mark.png" />正解
               </h2>
-              <dl>
-                <dt>2019/08/23</dt>
-                <dd>サイトを開設しました。</dd>
-              </dl>
+              <p>
+                <button class="quiz-correct-answer">1</button>
+              </p>
+              <button>正解を表示する</button>
+              <div class="alert alert-info">
+                <strong>正解!</strong>
+              </div>
+              <div class="alert alert-danger">
+                <strong>不正解!</strong>
+              </div>
+            </section>
+            <section>
+              <h2 class="quiz-commentary-h2">
+                <img class="quiz-commentary__logo" src="../assets/images/commentary-mark.png" />解説
+              </h2>
+              <div class="quiz-commentary__text">
+                1）3）4）は、どこが間違っていたの？
+                <br />1）受付でうかがってください。
+                <br />「うかがう」は謙譲語。謙譲語は自分または身内（自分の会社も含みます）の者に使う言葉で、相手に使うのは間違いです。
+                <br />『受付でお尋ねください。』が正解です。
+                <br />
+                <br />3）部長が申されたように進めていきます。
+                <br />「申す」も謙譲語です。謙譲語にれる・られるを付けても尊敬語にはなりません。
+                <br />『社長がおっしゃったように進めていきます。』が正解です。
+                <br />
+                <br />4）○△商事の□□様がお越しになられました。
+                <br />「なられました」は二重敬語の典型的な表現です。
+                <br />『○△商事の□□様がお越しになりました。』が正解です。
+                <br />
+              </div>
+              <button type="button" class="btn btn-primary center-block">次の問題へ</button>
+              <button type="button" class="center-block">結果を見る</button>
             </section>
           </article>
           <aside class="col-md-4 col-xs-12">
             <section class="sidebar-sns-section">
               <h3 class="text-center sidebar-sns-h3">SNS共有</h3>
               <div class="sidebar-sns-links">
-                <social-sharing url title="shareボタン" inline-template>
+                <social-sharing title="shareボタン" inline-template>
                   <div class="twitter__share">
                     <network network="twitter">
                       <i class="fab fa-twitter"></i> Twitter
                     </network>
                   </div>
                 </social-sharing>
-                <social-sharing url title="shareボタン" inline-template>
+                <social-sharing title="shareボタン" inline-template>
                   <div class="facebook__share">
                     <network network="facebook">
                       <i class="fab fa-facebook"></i> Facebook
                     </network>
                   </div>
                 </social-sharing>
-                <social-sharing url title="shareボタン" inline-template>
+                <social-sharing title="shareボタン" inline-template>
                   <div class="line__share">
                     <network network="line">
                       <i class="fab fa-line"></i> Line
                     </network>
                   </div>
                 </social-sharing>
-                <social-sharing url title="shareボタン" inline-template>
+                <social-sharing title="shareボタン" inline-template>
                   <div class="google__share">
                     <network network="googleplus">
                       <i class="fab fa-google"></i> google
@@ -204,21 +208,24 @@
         </div>
       </div>
     </main>
-   <TheFooter></TheFooter>
+
+   <the-Footer></the-Footer>
   </div>
 </template>
 
 <script>
-// .. is an alias to /src
 import TheHeader from "../components/layout/TheHeader";
 import TheFooter from "../components/layout/TheFooter";
 
 
 export default {
-  name: 'Home',
+  name: 'Quiz',
   components: {
     TheHeader,
     TheFooter,
   },
 };
 </script>
+
+<style>
+</style>
